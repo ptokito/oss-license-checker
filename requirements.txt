@@ -4,5 +4,4 @@ urllib3==1.24.1
 Django==2.2.0
 flask==3.0.0
 PyYAML==5.3
-PyQt5==5.15.9
 chardet==5.2.0
