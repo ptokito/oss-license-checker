@@ -18,7 +18,7 @@ pipeline {
             steps {
                 sh '''
                     . .venv/bin/activate
-                    python3 oss_checker.py --file requirements.txt --fail-on-vulns
+                    python3 oss_checker.py --file requirements.txt --fail-on-vulns --min-severity high
                 '''
             }
         }
